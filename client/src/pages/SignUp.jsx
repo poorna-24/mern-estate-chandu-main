@@ -24,7 +24,7 @@ const SignUp = () => {
         body: JSON.stringify(formData),
       });
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
       if (data.success === false) {
         setLoading(false);
         setError(data.message);
