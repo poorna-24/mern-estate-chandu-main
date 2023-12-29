@@ -8,17 +8,10 @@ app.use(express.json());
 dotenv.config();
 mongoose
   .connect(process.env.MONGO)
+  .then(() => console.log("Connected to DB!"))
+  .catch((err) => console.log(err));
 
-  .then(() => {
-    console.log("Connected to DB!");
-  })
-  .catch((err) => {
-    console.log(err);
-  });
-
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running on port ${process.env.PORT}`);
-});
+app.listen(process.env.PORT, () => console.log(`Server is running on port ${process.env.PORT}`));
 
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
