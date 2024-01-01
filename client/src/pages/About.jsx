@@ -8,7 +8,7 @@ const About = () => {
           <div className="relative h-48 w-48 flex-shrink-0 ">
             <img
               className="relative h-48 w-48 rounded-full object-cover hover:pointer-cursor"
-              src="https://firebasestorage.googleapis.com/v0/b/mern-estate-fc99f.appspot.com/o/1704055274011chandu1.jpg?alt=media&token=7e83ba4e-cc6a-4513-bd52-4c5e298e35dbhttps://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+              src="https://firebasestorage.googleapis.com/v0/b/mern-estate-fc99f.appspot.com/o/chandu1.jpg?alt=media&token=bb6772dc-82f8-40c1-8c51-c2bba42b986d"
               alt=""
             />
           </div>
