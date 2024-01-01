@@ -1,7 +1,9 @@
-import React from "react";
+// import React from "react";
+
+import ColorPick from "../components/ColorPick";
 
 const Home = () => {
-  return <div>Home page</div>;
+  return <ColorPick />;
 };
 
 export default Home;
